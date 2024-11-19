@@ -1,7 +1,7 @@
 import bitmap from "./assets/Bitmap.jpg";
 import Earbuds from "./assets/earbuds.jpg";
 import Soundwave from "./assets/soundwave.jpg";
-import ovalOne from "./assets/oval.png";
+import ovalOne from "./assets/Oval.png";
 import ovalTwo from './assets/OvalRed.png'
 
 
