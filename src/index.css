@@ -1,0 +1,585 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("./assets/Rubik-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: Rubik;
+}
+
+.Navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  h1,
+  div,
+  button {
+    margin: 0.5rem 0;
+  }
+}
+
+.webPages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  p:hover {
+    cursor: pointer;
+    background-color: black;
+    border-radius: 0.3rem;
+    height: 1.3rem;
+    color: white;
+    width: 25%;
+    text-align: center;
+  }
+}
+
+button {
+  width: 50%;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #473bf0;
+  color: white;
+  box-shadow: 0px 2px 0 0px black
+
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0px 4px 5px 0px black
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  font-family: Gilroy;
+}
+
+.homeImg {
+  width: 70%;
+  margin: 3rem 0;
+}
+
+.multipleText {
+  text-align: center;
+
+  .firstText {
+    margin: 1rem 0;
+    font-size: 0.82rem;
+    font-weight: 700;
+    line-height: 1rem;
+    letter-spacing: 0.15rem;
+    color: #f64b4b;
+    margin: 1rem 0;
+  }
+
+  h1 {
+    font-family: Gilroy;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 4.1rem;
+    letter-spacing: -2px;
+    color: #161c2d;
+    margin: 1rem 0;
+  }
+
+  .secondText {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: -0.2px;
+    color: #161c2d;
+    margin: 1rem 0;
+  }
+
+  .thirdText {
+    font-size: 0.82rem;
+    font-weight: 700;
+    line-height: 1rem;
+    letter-spacing: 0.15rem;
+    color: #161c2d;
+    margin: 1rem 0;
+  }
+}
+
+.properties {
+  font-family: Gilroy;
+  text-align: left;
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #f4f7fa;
+
+  .div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 1rem;
+  }
+
+  .propImage {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -1.8px;
+    text-align: left;
+    color: #161c2d;
+    width: 18rem;
+    height: 5rem;
+  }
+
+  .pFirstPara {
+    font-family: Gilroy;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: -0.2px;
+    text-align: left;
+    color: #161c2d;
+    opacity: 0.7;
+  }
+
+  .PropDiv {
+    display: flex;
+    justify-content: center;
+    color: #161c2d;
+    text-align: left;
+    margin: 1rem 0;
+
+    h3 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      line-height: 2rem;
+      letter-spacing: -0.5px;
+    }
+
+    img {
+      padding: 1rem 0 0 0;
+      height: 30%;
+      margin: 0 1rem;
+    }
+
+    .ovalDiv {
+      position: relative;
+
+      .oval {
+        position: absolute;
+        left: 0.4rem;
+        top: 0.6rem;
+      }
+    }
+
+    p {
+      font-size: 1.1rem;
+      font-weight: 400;
+      line-height: 1.8rem;
+      letter-spacing: -0.2px;
+      width: 14.2rem;
+      height: 5.4rem;
+      opacity: 0.7;
+    }
+  }
+}
+
+.Review {
+  display: flex;
+  flex-direction: column;
+  background-color: #473bf0;
+  color: #ffff;
+  text-align: center;
+  font-family: Gilroy;
+
+  .happyMan {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -1.8px;
+    text-align: left;
+  }
+
+  .r_text {
+    font-size: 1.18rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: -0.2px;
+    text-align: left;
+    opacity: 0.65;
+  }
+
+  .reviewText {
+    padding: 0.6rem;
+  }
+
+  .comment {
+    display: flex;
+    margin-top: 1rem;
+    text-align: justify;
+    margin-top: 3rem;
+
+    img {
+      width: 10%;
+      height: 10%;
+      border-radius: 2rem;
+      margin-right: 1rem;
+    }
+
+    .name {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.Design {
+  background-color: #161c2d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f4f7fa;
+  font-family: Gilroy;
+
+  .designText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 2rem;
+    width: 20rem;
+    height: 12.6rem;
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 2.5rem;
+      letter-spacing: -1.8px;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.16rem;
+      font-weight: 400;
+      line-height: 2rem;
+      letter-spacing: -0.2px;
+      opacity: 0.65;
+    }
+  }
+
+  .waves {
+    /* position: relative; */
+    /* top: 11rem; */
+    z-index: -1;
+    width: 100%;
+  }
+
+  .earBuds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .l_bud,
+  .r_bud {
+    z-index: 1;
+    width: 5rem;
+    height: 6rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+
+  .l_bud {
+    bottom: 8rem;
+  }
+
+  .r_bud {
+    bottom: 5.65rem;
+    right: 1rem;
+  }
+}
+
+.variations {
+  text-align: center;
+  margin-top: 4rem;
+  font-family: Gilroy;
+
+  .variationText {
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 3.6rem;
+      letter-spacing: -1.8px;
+      color: #161c2d;
+    }
+
+    p {
+      font-size: 1.15rem;
+      font-weight: 400;
+      line-height: 2rem;
+      letter-spacing: -0.2px;
+      opacity: 0.7;
+    }
+  }
+
+  .airpodSection {
+    margin: 2rem 0;
+    color: #161c2d;
+
+    .airpodText {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    p {
+      width: 15rem;
+      margin: 1rem 0;
+      opacity: 0.6;
+    }
+
+    button {
+      width: 7rem;
+      height: 2rem;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.Setup {
+  height: 25rem;
+  width: 100%;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.footer {
+  padding: 0 0.2rem;
+
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    p:hover {
+      cursor: pointer;
+      background-color: black;
+      border-radius: 0.3rem;
+      color: white;
+      height: 1.3rem;
+      padding: 0.2rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .Navbar {
+    flex-direction: row;
+  }
+
+  .webPages {
+    width: 30%;
+  }
+
+  .multipleText {
+    .firstText {
+      margin: 2rem 0;
+    }
+
+    h1 {
+      margin: 2rem 0;
+    }
+
+    .secondText {
+      margin: 2rem 0;
+    }
+
+    .thirdText {
+      margin: 2rem 0;
+    }
+  }
+
+  .homeButton {
+    width: 40%;
+  }
+
+  button {
+    width: 20%;
+    font-size: 1rem;
+  }
+
+  .properties {
+    flex-direction: row;
+
+    .propImage {
+      width: 30%;
+    }
+
+    .pFirstPara {
+      margin: 0;
+      width: 404px;
+    }
+
+    .div {
+      width: 70%;
+      justify-content: center;
+      height: 40rem;
+      padding: 0 0 0 5rem;
+
+      h1 {
+        line-height: 2rem;
+      }
+
+      .propDivs {
+        display: flex;
+        flex-direction: row;
+        margin: 4rem 0 0 0;
+
+        img {
+          padding: 1rem 0 0 0;
+          width: 2rem;
+          height: 2rem;
+        }
+      }
+    }
+  }
+
+  .Review {
+    flex-direction: row-reverse;
+    height: 40.5rem;
+    width: 100%;
+
+    .happyMan {
+      width: 35%;
+      height: 100%;
+    }
+
+    .r_heading {
+      width: 24rem;
+    }
+
+    .reviewText {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 65%;
+      padding: 0;
+    }
+
+    .comment {
+      width: 20rem;
+
+      img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 3rem;
+      }
+    }
+  }
+
+  .Design {
+    .waves {
+      position: relative;
+      top: 11rem;
+      z-index: 1;
+      width: 100%;
+    }
+    .designText {
+      width: 30rem;
+      height: 13rem;
+      top: 6rem;
+
+      h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+      }
+
+      p {
+        font-size: 1.3rem;
+        line-height: 2rem;
+      }
+    }
+
+    .earBuds {
+      position: relative;
+      bottom: 10rem;
+    }
+
+    .l_bud,
+    .r_bud {
+      width: 16rem;
+      height: 19rem;
+    }
+
+    .l_bud {
+      bottom: 8rem;
+    }
+
+    .r_bud {
+      bottom: 0.6rem;
+      right: 3.1rem;
+    }
+  }
+
+  .variations {
+    height: 37.5rem;
+
+    .variationText {
+      margin-bottom: 5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h1 {
+        font-size: 4.5rem;
+        margin-bottom: 2rem;
+      }
+
+      p {
+        font-size: 2rem;
+        width: 40rem;
+      }
+    }
+
+    .airpodFlexContainer {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+
+  .Setup {
+    height: 50rem;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .contact {
+      width: 30%;
+    }
+  }
+}
