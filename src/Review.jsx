@@ -1,5 +1,5 @@
 import happyMan from "./assets/Group.jpg";
-import profilePIc from "./assets/oval.jpg";
+import profilePIc from "./assets/Oval.jpg";
 
 const Review = () => {
   return (
