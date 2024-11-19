@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Left AirPod -->
+  <path d="M8 8 C4 8 4 12 4 14 C4 16 4 19 8 19 C10 19 11 18 11 16 L11 12 C11 10 10 8 8 8" 
+        fill="white" 
+        stroke="black" 
+        stroke-width="1.5"/>
+  <rect x="9" y="12" width="2" height="8" rx="1" fill="white" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Right AirPod -->
+  <path d="M24 8 C28 8 28 12 28 14 C28 16 28 19 24 19 C22 19 21 18 21 16 L21 12 C21 10 22 8 24 8" 
+        fill="white" 
+        stroke="black" 
+        stroke-width="1.5"/>
+  <rect x="21" y="12" width="2" height="8" rx="1" fill="white" stroke="black" stroke-width="1.5"/>
+</svg>
