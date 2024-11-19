@@ -1,6 +1,6 @@
 import waves from './assets/MusicWave.png'
-import leftEarbud from './assets/left.png'
-import rightEarbud from './assets/right.png'
+import leftEarbud from './assets/Left.png'
+import rightEarbud from './assets/Right.png'
 
 const Design = () => {
   return (
