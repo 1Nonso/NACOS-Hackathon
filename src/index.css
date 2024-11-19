@@ -20,10 +20,12 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0px 1px 2px 1px black;
   h1,
   div,
   button {
-    margin: 0.5rem 0;
+    margin: 1rem 0;
   }
 }
 
@@ -50,13 +52,12 @@ button {
   border: none;
   background-color: #473bf0;
   color: white;
-  box-shadow: 0px 2px 0 0px black
-
+  box-shadow: 0px 2px 0 0px black;
 }
 
 button:hover {
   cursor: pointer;
-  box-shadow: 0px 4px 5px 0px black
+  box-shadow: 0px 4px 5px 0px black;
 }
 
 .Home {
@@ -64,7 +65,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0.3rem;
+  padding: 1rem;
   font-family: Gilroy;
 }
 
@@ -127,7 +128,7 @@ button:hover {
   .div {
     display: flex;
     flex-direction: column;
-    padding: 0 0 0 1rem;
+    padding: 1.5rem;
   }
 
   .propImage {
@@ -226,14 +227,13 @@ button:hover {
   }
 
   .reviewText {
-    padding: 0.6rem;
+    padding: 1rem;
   }
 
   .comment {
     display: flex;
-    margin-top: 1rem;
     text-align: justify;
-    margin-top: 3rem;
+    margin: 2rem 0 3rem 0;
 
     img {
       width: 10%;
@@ -377,7 +377,11 @@ button:hover {
 }
 
 .footer {
-  padding: 0 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+  height: 5rem;
 
   .contact {
     display: flex;
@@ -575,6 +579,7 @@ button:hover {
 
   .footer {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
